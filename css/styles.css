@@ -1,0 +1,135 @@
+:root {
+  --font-main: "Montserrat", sans-serif;
+  --font-minor: "Roboto", sans-serif;
+  --text-color: #ffffff;
+  --text-red: #ff4e50;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+  background-image: url(../images/headermobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.registration {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 116px;
+}
+
+.registration-list {
+  display: block;
+  width: 90px;
+  height: 35px;
+  font-size: 14px;
+  color: var(--text-color);
+  font-family: var(--font-main);
+  font-weight: 700;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.registation-list:hover,
+.registration-list:focus {
+  border-color: var(--text-color);
+}
+
+.logo {
+  display: block;
+  font-size: 20px;
+  font-family: var(--font-main);
+  color: var(--text-color);
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
+.hero {
+  padding-bottom: 138px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title {
+  margin: 0;
+  font-size: 30px;
+  color: var(--text-color);
+  font-family: var(--font-main);
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.hero-text {
+  font-size: 18px;
+  color: var(--text-color);
+  font-family: var(--font-minor);
+  font-weight: 300;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.hero-link {
+  display: block;
+  width: 281px;
+  height: 38px;
+  font-size: 14px;
+  color: var(--text-color);
+  font-family: var(--font-main);
+  font-weight: 700;
+  border-radius: 20px;
+  border: 2px solid var(--text-color);
+  text-decoration: none;
+  text-align: center;
+  padding-top: 8px;
+  cursor: pointer;
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  background-color: var(--text-red);
+  border-color: var(--text-red);
+}
