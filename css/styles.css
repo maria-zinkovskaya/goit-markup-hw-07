@@ -5,6 +5,9 @@
   --text-red: #ff4e50;
   --text-black: #333333;
   --text-gray: #666666;
+  --svg-yellow: #ffa507;
+  --svg-mint: #1cd7ad;
+  --svg-blue: #4e73db;
 }
 
 html {
@@ -160,46 +163,58 @@ html {
   text-align: center;
 }
 
-/*.partners-list::before {
-  content: "";
-  display: block;
+.card-image {
   width: 122px;
   height: 122px;
-  margin-left: auto;
-  margin-right: auto;
-  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.card {
+  position: relative;
+  display: inline-block;
   margin-bottom: 20px;
-}*/
+}
 
-/*.partners-list::after {
-  content: "";
-  display: block;
-  width: 31px;
-  height: 31px;
-  margin-left: auto;
-  margin-right: auto;
-  background-repeat: no-repeat;
-  border: 4px solid var(--text-color);
-  border-radius: 100%;
+.card-icon {
   position: absolute;
-  transform: translateY(100%);
-}*/
-
-/*.bradley::before {
-  background-image: url(../images/bradley.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border: 4px solid var(--text-color);
+  border-radius: 20px;
+  bottom: 0;
+  right: 0;
 }
 
-.lucas::before {
-  background-image: url(../images/lucas.jpg);
+.icon-svg {
+  position: absolute;
+  display: block;
+  width: 16px;
+  height: 16px;
 }
 
-.heather::before {
-  background-image: url(../images/heather.jpg);
+.red {
+  background-color: var(--text-red);
 }
 
-.brittany::before {
-  background-image: url(../images/brittany.jpg);
-}*/
+.yellow {
+  background-color: var(--svg-yellow);
+}
+
+.mint {
+  background-color: var(--svg-mint);
+}
+
+.blue {
+  background-color: var(--svg-blue);
+}
+
+.card:hover .card-icon,
+.card:focus .card-icon {
+  transform: scale(1.05);
+}
 
 .partners-title {
   height: 18px;

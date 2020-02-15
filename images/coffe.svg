@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17" width="17" height="17">
 	<defs>
-		<image width="19" height="19" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAABgElEQVQ4T63UP6hPcRjH8ddH+VMsBolF3W7JoJSBMEuR7iAZSJkNJkosks1mMjIyYSB3IIviDgy4iw2h1OWmSB59da6u/H6/8+vmW6dzTuf5vp/P8zyf843/uDIOq6rWJfnYF9sLq6q1eIZtST6NAvbC2uaqeok9mE/ybRiwF1ZVUziR5GBVPeieXw8CjgN7gXO4g+fYNazckbDWeHzAXqzH4aZwSWVWVUt2BTdb63AoycmxYVW1Aqv7bNB9/5Lkx0LsP2VW1W0cGBN2LcnxUbAbeIqrPcAzOIJbOJ9kbpCyi9iU5NgoWFW16T7CY+xPcnoQbAfudcC5QcCq2oDmtbN4j8kkFwZao6ru4lWSU0Ng17EG01jZJp7k+zDYJJ7gMi4l+dn9VsvbO45ie5K3i5P9gVXV7uZutBJa1p3YilncxzLswwRmumseb/AwycxvWGfOd53Lx3TFX2GtJVsWK1uFzdjYKWvR7fhpqyltpX7t7guD+YxW6uzQni1FWtvzC6kJghR4mk3tAAAAAElFTkSuQmCC"/>
+		<image width="16" height="16" id="coffe" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAABgElEQVQ4T63UP6hPcRjH8ddH+VMsBolF3W7JoJSBMEuR7iAZSJkNJkosks1mMjIyYSB3IIviDgy4iw2h1OWmSB59da6u/H6/8+vmW6dzTuf5vp/P8zyf843/uDIOq6rWJfnYF9sLq6q1eIZtST6NAvbC2uaqeok9mE/ybRiwF1ZVUziR5GBVPeieXw8CjgN7gXO4g+fYNazckbDWeHzAXqzH4aZwSWVWVUt2BTdb63AoycmxYVW1Aqv7bNB9/5Lkx0LsP2VW1W0cGBN2LcnxUbAbeIqrPcAzOIJbOJ9kbpCyi9iU5NgoWFW16T7CY+xPcnoQbAfudcC5QcCq2oDmtbN4j8kkFwZao6ru4lWSU0Ng17EG01jZJp7k+zDYJJ7gMi4l+dn9VsvbO45ie5K3i5P9gVXV7uZutBJa1p3YilncxzLswwRmumseb/AwycxvWGfOd53Lx3TFX2GtJVsWK1uFzdjYKWvR7fhpqyltpX7t7guD+YxW6uzQni1FWtvzC6kJghR4mk3tAAAAAElFTkSuQmCC"/>
 	</defs>
 	<style>
 		tspan { white-space:pre }
