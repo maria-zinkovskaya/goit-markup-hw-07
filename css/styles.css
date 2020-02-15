@@ -3,6 +3,8 @@
   --font-minor: "Roboto", sans-serif;
   --text-color: #ffffff;
   --text-red: #ff4e50;
+  --text-black: #333333;
+  --text-gray: #666666;
 }
 
 html {
@@ -69,7 +71,7 @@ html {
   cursor: pointer;
 }
 
-.registation-list:hover,
+.registration-list:hover,
 .registration-list:focus {
   border-color: var(--text-color);
 }
@@ -112,7 +114,7 @@ html {
   margin: 0;
 }
 
-.hero-link {
+.link {
   display: block;
   width: 281px;
   height: 38px;
@@ -128,8 +130,101 @@ html {
   cursor: pointer;
 }
 
-.hero-link:hover,
-.hero-link:focus {
+.link:hover,
+.link:focus {
   background-color: var(--text-red);
   border-color: var(--text-red);
+}
+
+.main-section {
+  margin: 0;
+  padding: 0;
+  padding-top: 70px;
+  padding-bottom: 58px;
+}
+
+.main-title {
+  font-size: 22px;
+  font-family: var(--font-main);
+  color: var(--text-black);
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+/*.partners-list::before {
+  content: "";
+  display: block;
+  width: 122px;
+  height: 122px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}*/
+
+/*.partners-list::after {
+  content: "";
+  display: block;
+  width: 31px;
+  height: 31px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  border: 4px solid var(--text-color);
+  border-radius: 100%;
+  position: absolute;
+  transform: translateY(100%);
+}*/
+
+/*.bradley::before {
+  background-image: url(../images/bradley.jpg);
+}
+
+.lucas::before {
+  background-image: url(../images/lucas.jpg);
+}
+
+.heather::before {
+  background-image: url(../images/heather.jpg);
+}
+
+.brittany::before {
+  background-image: url(../images/brittany.jpg);
+}*/
+
+.partners-title {
+  height: 18px;
+  font-family: var(--font-main);
+  color: var(--text-black);
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 17px;
+}
+
+.partners-text {
+  font-size: 14px;
+  font-family: var(--font-minor);
+  color: var(--text-gray);
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.last {
+  color: var(--text-red);
+  border: 2px solid var(--text-red);
+}
+
+.last:hover,
+.last:focus {
+  background-color: var(--text-red);
+  color: var(--text-color);
 }
