@@ -154,7 +154,7 @@ html {
   text-align: center;
   margin: 0;
   padding: 0;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .partners {
@@ -242,4 +242,137 @@ html {
 .last:focus {
   background-color: var(--text-red);
   color: var(--text-color);
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    background-image: url(../images/headertablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
+
+  .hero {
+    padding-bottom: 232px;
+  }
+
+  .container {
+    max-width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 44px;
+    padding-right: 44px;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 152px;
+  }
+
+  .registration {
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo {
+    margin-right: auto;
+  }
+
+  .hero-title {
+    font-size: 52px;
+    padding-bottom: 40px;
+  }
+
+  .hero-text {
+    font-size: 24px;
+    padding-bottom: 32px;
+  }
+
+  .link {
+    width: 225px;
+  }
+
+  .main-section {
+    padding-top: 75px;
+    padding-bottom: 40px;
+  }
+
+  .main-title {
+    margin-bottom: 30px;
+  }
+
+  .partners {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 38px;
+    justify-content: center;
+  }
+
+  .partners-list {
+    margin-right: 20px;
+    margin-bottom: 58px;
+    width: 220px;
+  }
+
+  .partners-list:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .partners-list:nth-last-child(-n + 2) {
+    margin-bottom: 0;
+  }
+
+  .partners-text {
+    margin-bottom: 0;
+  }
+
+  .last {
+    width: 190px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 940px) {
+  .header {
+    background-image: url(../images/headerdesktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
+
+  .container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .main-section {
+    padding-bottom: 70px;
+  }
+
+  .partners {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 40px;
+  }
+
+  .partners-list {
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+
+  .partners-list:nth-child(2n) {
+    margin-right: 30px;
+  }
+
+  .partners-list:last-child {
+    margin-right: 0;
+  }
 }
